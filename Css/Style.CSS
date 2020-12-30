@@ -1,7 +1,45 @@
-body {
-  background-color: rgba(50, 100, 30, 0.3);
-  font-style: italic;
+/* Generales -------*/
+
+body{
+  /* Estilos */
 }
-h2 {
-  font-size: 24px
+p{
+  /* Estilos */
+}
+
+
+/* Estilos Tipografiacos -------*/
+
+.ejemplo{
+  /* Estilos */
+}
+p.ejemplo{
+  /* Estilos */
+}
+
+/* Cabecera -------*/
+
+.navegacion {
+  /* Estilos */
+}
+
+.logo {
+  /* Estilos */
+}
+
+/* Estructuras -------*/
+
+.contenedor{
+  /* Estilos */
+}
+
+/* Pie -------*/
+
+.Pie{
+  /* Estilos */
+}
+
+/* Paguinas como Contactos, Productos y Etc -------*/
+.contactos{
+  /* Estilos */
 }
