@@ -1,0 +1,33 @@
+div {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+
+  /* Principalmente es un Bloque.  con  o la propiedad Inline-block no
+  tendra salto de linea se convertira en en linea. se guntara al lado de el
+  otro.
+  display: inline;
+  display: block;
+  display: inline-block;
+  */
+}
+/*
+div {
+  display: block;
+}
+*/
+span{
+  background-color: coral;
+  padding: 10px;
+  display: block;
+
+  /* se convertira en un bloque con salto de linea
+  display: block;
+  */
+}
+body {
+  font-size: 30px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
