@@ -49,6 +49,11 @@ table {
 	border-spacing: 0;
 }
 
+/* Recetar anchura total = width */
+*{
+  box-sizing: border-box;
+}
+
 a,
 a:visited{
   color: blue;
