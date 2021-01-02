@@ -1,0 +1,19 @@
+body{
+  font-size: 30px;
+  padding: 50px;
+}
+div{
+  background-color: rgba(0, 12, 196, 0.5);
+  border: 1px solid;
+  height: 200px;
+  overflow: auto;
+  /*
+  --------cortara el elemento se pasa a la caja-------
+  overflow: hidden;
+  --------Para se convertira en un Scroll por nosostros-------
+  overflow: scroll;
+  --------Para hacer se convertira en scroll pero segun el Navegador-------
+  overflow: auto;
+  --------Para resetear la elemento-------
+  overflow: visible;*/
+}

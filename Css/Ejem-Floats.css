@@ -1,0 +1,22 @@
+body{
+  font-size: 30px;
+  padding: 50px;
+}
+div{
+  background-color: rgba(0, 12, 196, 0.5);
+  border: 1px solid;
+  /* -------- como los elementos flotan y no probocan un salto de linea
+  es necesarios ponerle al div para que los contengan la propiedad.
+  pa esto se tiene que linpiar los float de todos los elementos se usa  --------*/
+  overflow: hidden;
+
+}
+.Parrafo{
+  /* -------- El Parrafo flotara a hacioa la izquierdad (left) --------*/
+  float: left;
+  /* -------- y que tenga una anchura del 50% de todo el div
+si no tiene esta achura el parrafo ocupara el que tiene el contenido
+del 100 * 100
+   --------*/
+  width: 50%;
+}
