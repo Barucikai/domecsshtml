@@ -1,0 +1,37 @@
+body{
+  background-color: rgba(456, 45, 23, 0.5);
+  font-size: 30px;
+  padding: 100px;
+}
+p{
+  border: 8px solid;
+  margin: 50px;
+}
+
+.contenedor{
+  background-color: rgba(75, 23, 32, 0.5);
+  padding: 20px;
+  /*------ para que esten dentro del div y solamante lo contega este
+  elemento y no en toda la pantalla del la web se usa position: relative; -------*/
+  position: relative;
+}
+span{
+  background-color: rgba(70, 34, 56, 0.5);
+  padding: 10px;
+  /*-------- de esyos elementos es que dependo la position de span  --------*/
+  position: absolute;
+  right: 0;
+  top: 0;
+  /*---- con un z-index maryor es quin se va asuperponer
+  del otro elemento -----*/
+  z-index: 1;
+
+}
+.alt{
+  background-color: rgba(80, 800, 10, 0.4);
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0
+}
