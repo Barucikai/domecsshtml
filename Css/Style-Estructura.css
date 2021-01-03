@@ -1,0 +1,142 @@
+/* Reset CSS  -------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------- General ------- */
+
+body{
+  background-color:  rgba(0, 140, 166, 1);
+}
+/*-------div nu1------*/
+.nu1{
+  background-color:  rgb(0, 86, 124,0.5);
+  height: 90px;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+/*-------div nu2------*/
+.nu2{
+  background-color:  rgb(0, 86, 124,0.5);
+  height: 230px;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+/*-------div nu2------*/
+
+.nu3{
+  background-color:  rgb(0, 86, 124,0.5);
+  width: 750.5px;
+  height: 240px;
+  padding: 10px;
+  margin: 10px;
+  overflow:  auto;
+}
+
+/*-------div nu3------*/
+
+.nu4{
+  background-color:  rgb(0, 86, 124,0.5);
+  width: 839.5px;
+  height: 240px;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+  position: absolute;
+  left: 782px;
+  top: 381px;
+}
+/*-------div nu5------*/
+.nu5{
+  background-color:  rgb(0, 86, 124,0.5);
+  height: 230px;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+
+/*-------div nu6------*/
+.nu6{
+  background-color:  rgb(0, 86, 124,0.5);
+  width: 750.5px;
+  height: 240px;
+  padding: 10px;
+  margin: 10px;
+  overflow:  auto;
+}
+
+/*-------div nu7------*/
+
+.nu7{
+  background-color:  rgb(0, 86, 124,0.5);
+  width: 839.5px;
+  height: 240px;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+  position: absolute;
+  left: 782px;
+  top: 910px;
+}
+
+/*------- p Class = P ------*/
+
+.si7, .si6, .si5, .si4, .si3, .si2{
+  padding: 30px;
+  border: 1px solid;
+}
+/*------ h2 ------*/
+
+h2{
+  padding: 50px;
+  margin: auto;
+  font-size: 25px;
+}
