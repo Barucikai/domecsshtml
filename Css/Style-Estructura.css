@@ -91,8 +91,8 @@ body{
   margin: 10px;
   overflow: auto;
   position: absolute;
-  left: 782px;
-  top: 381px;
+  left: 803px;
+  top: 1569px;
 }
 /*-------div nu5------*/
 .nu5{
@@ -123,8 +123,8 @@ body{
   margin: 10px;
   overflow: auto;
   position: absolute;
-  left: 782px;
-  top: 910px;
+  left: 803px;
+  top: 2061px;
 }
 
 /*------- p Class = P ------*/
@@ -139,4 +139,56 @@ h2{
   padding: 20px;
   margin: auto;
   font-size: 25px;
+}
+
+*{
+box-sizing:border-box;
+}
+
+/*-----------------------------------------------------------------*/
+body {
+	background-color: #16b8a8;
+	margin: 0;
+	padding: 0;
+}
+
+.fullcontent {
+	width:100%;
+	overflow: hidden;
+	padding-bottom:20px;
+}
+
+.header {
+	background-color: #4a6375;
+	margin: 22px;
+	height: 100px;
+}
+
+.main {
+	background-color:#4a6375;
+	margin: 22px;
+    height: 250px;
+}
+
+.totalwidth {
+	overflow:hidden;
+}
+
+.halfwidth_i {
+	width:50%;
+	height: 250px;
+	padding: 0 11px 0 22px;
+	float:left;
+}
+
+.halfwidth_d {
+	width:50%;
+	height:250px;
+	padding: 0 22px 0 11px;
+	float:left;
+}
+
+.halfcontent {
+	background-color: #4a6375;
+	height:250px;
 }
