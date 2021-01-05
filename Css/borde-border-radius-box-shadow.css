@@ -1,0 +1,28 @@
+UL {
+  /*----- Resetea el y no deja nada en la lista -----*/
+  list-style-type: none;
+/*----- Resetea el y no deja nada en la lista -----*/
+  /*list-style-type: disc;*/
+/*----- Resetea el y no deja nada en la lista -----*/
+  /*list-style-type: square;*/
+/*----- Resetea el y no deja nada en la lista -----*/
+  /*list-style-type: upper-latin;*/
+
+  /*-- y mas para probar --*/
+
+  /*-- para renderizar el "bullets" se aplica --*/
+
+  /*-- por dentro se renderiza --*/
+  /*list-style-position: inside;*/
+  padding-left: 0;
+
+  /*-- por fue a se renderiza --*/
+  /*list-style-position: outside;*/
+
+
+}
+li{
+  /*----- para que allas un lista de tipo navegador seria para que se coloque un al
+  lado del otro------*/
+  display: inline;
+}
