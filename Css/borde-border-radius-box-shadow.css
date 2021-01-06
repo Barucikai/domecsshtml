@@ -17,6 +17,7 @@ div{
 .border3 {
   border: 5px dotted rgba(34, 56, 67, 0.5);
 }
+
 /*----- para los bordes redondeados -----*/
 
 .Radius1{
@@ -30,4 +31,25 @@ div{
 }
 .Radius4{
   border-radius: 50%;
+}
+
+/*----- para las Box-shadow que se len pueden aplicar -----*/
+
+.box1{
+  box-shadow: 5px 5px 10px black;
+}
+
+.box2{
+  box-shadow: 5px 5px 10px 37px black;
+}
+
+.box3{
+  box-shadow: inset 5px 5px 10px 37px black;
+}
+
+.box4{box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+.box5{box-shadow: 5px 5px 10px black,
+                  -5px -5px 10px red;
 }
