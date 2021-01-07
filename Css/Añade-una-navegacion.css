@@ -62,9 +62,27 @@ body{
   margin: 10px;
   overflow: auto;
 }
+div{
+	font-family: 'Lato', sans-serif;
+}
+.nu1-1{
+	width: 224px;
+  height: 18px;
+  border: 1px solid;
+	padding: 18px;
+	display: inline-block;
+	float: right;
+	margin: 17px;
+	border-radius: 20px;
+	font-size: 20px;
+}
 /*-------div nu2------*/
 .nu2{
   background-color:  #4a6375;
+	background-image: url(../imag/imagn.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
   height: 230px;
   padding: 10px;
   margin: 10px;
@@ -131,14 +149,19 @@ body{
 
 .si7, .si6, .si5, .si4, .si3, .si2{
   padding: 30px;
-  border: 1px solid;
+	border-radius: 16px 10px;
+	border: 1px solid;
 }
 /*------ h2 ------*/
 
 h2{
+	font-family: 'Lato', sans-serif;
   padding: 20px;
   margin: auto;
   font-size: 25px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
 }
 
 ul{
@@ -147,8 +170,8 @@ ul{
 	padding-top: 37px;
 }
 li{
-	background-color: rgba(111, 238, 185, 0.3);
   display: inline;
 	padding: 10px;
 	border-radius: 16px 10px;
+	border: 1px solid;
 }
