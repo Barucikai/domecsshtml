@@ -1,10 +1,14 @@
+/*
+
+-------EN LA PARTE DE ARIBA SE PENSO PARA PANTALLA GRANDE Y NO PARA MOVIL
+
 *{
   box-sizing: border-box;
 }
 body{
   font-family: sans-serif;
-  font-size: 20px;
-  margin: 100px;
+  font-size: 16px;
+  margin: 10px;
 
 }
 div{
@@ -14,13 +18,110 @@ div{
   padding: 20px;
 
 }
+h1, h2 {
+  font-size: 36px;
+}
 .principal{
   width: 60%;
   min-height: 30em;
-  border-radius: 10px;
+
 }
 .secundario{
 
   width: 40%;
   min-height: 30em;
+
+}
+
+/*--------Un cambio de tamaño tipogradico
+@media screen and (max-width: 1000px){
+    h1, h2 {
+      font-size: 24px;
+    }
+    body{
+      font-size: 16px;
+    }
+}
+/* -------cambios en los div uno abajo del otro y si float
+@media screen and (max-width: 850px) {
+  .principal, .secundario{
+    width: 100%;
+    float: none;
+  }
+}
+*/
+
+/*EN LA PARTE DE ARIBA SE PENSO PARA PANTALLA GRANDE Y NO PARA MOVIL*/
+
+/*AQUI PARA BAJO SE PIENSA PRIMERO DE PANTALA PEQUENA A PANTALLA GRANDE */
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  /*------Tamaño para pantalla pequeña font-size ----*/
+  font-size: 16px;
+  margin: 10px;
+
+}
+
+/*-------- De esta manera quedan ordenadas de menor -----------
+---punto inicial--- */
+div{
+  background-color: rgb(0, 0, 0, 0.5);
+  float: left;
+  border: 4px solid white;
+  padding: 20px;
+
+}
+h1, h2 {
+  /*------Tamaño para pantalla pequeña font-size ----*/
+  font-size: 20px;
+}
+.principal{
+  width: 60%;
+  min-height: 30em;
+
+}
+.secundario{
+
+  width: 40%;
+  min-height: 30em;
+
+}
+
+/*--------Se peinsa aqui para iniciar con pantalla pequeña
+y no para pantalla grande ----------*/
+
+
+
+@media screen and (min-width: 850px){
+    body{
+      margin: 100px;
+    }
+
+    .principal, .secundario{
+      min-height: : 30em;
+      float: left;
+    }
+
+    .principal{
+      width: 60%;
+    }
+
+    .secundario{
+      width: 40%;
+    }
+}
+
+/*-------- a mayor para los 1000px  ----------*/
+
+@media screen and (min-width: 1000px) {
+  body{
+    font-size: 20px;
+  }
+  h1, h2{
+    font-size: 36px;
+  }
 }
