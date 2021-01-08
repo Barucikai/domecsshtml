@@ -77,8 +77,10 @@ div{
 }
 h1, h2 {
   /*------Tamaño para pantalla pequeña font-size ----*/
-  font-size: 20px;
+  font-size: 24px;
 }
+/* se quitan estos dos para darle paso al media queries que defina los tamaños */
+/*
 .principal{
   width: 60%;
   min-height: 30em;
@@ -88,14 +90,23 @@ h1, h2 {
 
   width: 40%;
   min-height: 30em;
-
 }
+
+*/
 
 /*--------Se peinsa aqui para iniciar con pantalla pequeña
 y no para pantalla grande ----------*/
 
+/*--- los estilos que quieras poner de un minimo
+ a un maximo se pueden asi
+@media screen and (min-width: 70px) and (max-width: 900px) {
 
+  .principal, .secundario{
+    border-radius: 40px;
+  }
+}
 
+---*/
 @media screen and (min-width: 850px){
     body{
       margin: 100px;
