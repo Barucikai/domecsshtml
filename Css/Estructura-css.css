@@ -1,0 +1,155 @@
+/* Reset CSS  -------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Recetar anchura total = width */
+*{
+  box-sizing: border-box;
+}
+
+/* Estilos Generales -------*/
+
+body{
+  /* Estilos */
+}
+p{
+  /* Estilos */
+}
+
+
+/* Estilos Tipografiacos -------*/
+
+.ejemplo{
+  /* Estilos */
+}
+p.ejemplo{
+  /* Estilos */
+}
+
+/* Cabecera -------*/
+
+.navegacion {
+  /* Estilos */
+}
+
+.logo {
+  /* Estilos */
+}
+
+/* Estructuras -------*/
+
+.contenedor{
+  /* Estilos */
+}
+
+/* Pie -------*/
+
+.Pie{
+  /* Estilos */
+}
+
+/* Paguinas como Contactos, Productos y Etc -------*/
+.contactos{
+  /* Estilos */
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  background: rgba(51, 147, 161, 0.78);
+  color: black;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: sans-serif;
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 15px 30px;
+}
+ul{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+p{
+   margin-bottom: 15px;
+}
+.navegacion a{
+  display: block;
+  text-decoration: none;
+  color: #2D211F;
+  border-bottom: 1px solid #2D211F;
+}
+.lanzador-menu{
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 10px;
+  background-color: #2d211f;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 600px){
+
+  .lanzador-menu{
+    display: none;
+  }
+  .navegacion{
+    position: absolute;
+    top:-30px;
+  }
+  body{
+    margin-top: 60px;
+  }
+  .navegacion, li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+}
