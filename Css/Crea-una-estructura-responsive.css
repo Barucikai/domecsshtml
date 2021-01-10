@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: serif;
+  font-size: 20px;
+
+}
+h2{
+  font-size: 30px;
+}
+div{
+  margin: 5px;
+  border-radius: 20px;
+  border: 4px solid rgba(84, 213, 99, 0.94);;
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (min-width: 850px) {
+
+body{
+  width: 100%;
+}
+  .nu1{
+    width: 22%;
+  }
+  .nu2{
+    width: 22%;
+  }
+  .nu3{
+    width: 22%;
+  }
+  .nu4{
+    width: 22%;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    width: 100%;
+  }
+  .nu1{
+    width: 100%
+  }
+    .nu1{
+      width: 100%
+    }
+    .nu2{
+      width: 100%
+    }
+    .nu3{
+      width: 100%
+    }
+    .nu4{
+      width: 100%
+    }
+}
