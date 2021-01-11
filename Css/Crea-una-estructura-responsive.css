@@ -61,7 +61,7 @@ h2{
 @media screen and (min-width: 850px) {
 
 body{
-  width: 100%;
+  width: 94%;
 }
 
   .lanzador-menu{
@@ -97,9 +97,9 @@ body{
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   body{
-    width: 94%;
+    width: 97%;
   }
 
 }
