@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+/*-----------------COMIENZO DE CODIGO-----------------*/
+div{
+    background-color: antiquewhite;
+    float: left;
+    border: 4px solid white;
+    border-radius: 40px;
+    padding: 20px;
+}
+.contenedor1 div{
+    width: 20%;
+    min-height: 500px
+}
+.contenedor2 div{
+    width: 20%;
+    min-height: 500px
+}
+@media screen and (max-width: 900px){
+    .contenedor1,
+    .contenedor2{
+        float:left;
+    }
+}
+@media screen and (max-width: 900px){
+    .contenedor1 div,
+    .contenedor2 div{
+    width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    .contenedor1 div,
+    .contenedor2 div{
+        width: 100%;
+        float: none;
+    }
+}
